@@ -4,7 +4,7 @@ import CountUp from 'react-countup';
 import cx from 'classnames';
 
 const CardComponent = ({ className, cardTitle, value, lastUpdate, cardSubtitle }) => (
-  <Grid item xs={12} md={3} component={Card} className={cx(styles.card, className)}>
+  <Grid item xs={12} md={3} component={Card}>
     <CardContent>
       <Typography color="textSecondary" gutterBottom>
         {cardTitle}
